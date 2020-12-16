@@ -1,0 +1,45 @@
+<template name="iconsBar">
+    <div class = "icon-container">
+      <a href="/"><h1>Sodia</h1></a>
+        <div class="navBar">
+          <table class="table">
+            <tr>
+              <td class="tableHeader">Posts</td>
+              <td class="tableHeader">Following</td>
+              <td class="tableHeader">Followers</td>
+            </tr>
+            <tr>
+              <td class="tableContent">{{posts}}</td>
+              <td class="tableContent">{{following}}</td>
+              <td class="tableContent">{{followers}}</td>
+            </tr>
+          </table>
+        </div>
+      {{>dropDown}}
+    </div>
+  </template>
+  
+  <template name="dropDown">
+    <div class="dropDown-container">
+      <div class="dropDown-button-container">
+        <button id="addButton" type="button" name="button" class="dropDown-button">Add</button>
+        <button id="notifButton" type="button" name="button" class="dropDown-button">Notifications</button>
+        <button id="accountButton" type="button" name="button" class="dropDown-button">Account</button>
+      </div>
+      <div id="dropdown1" class="dropDown-content">
+        <a href="#">Add Link 1</a>
+        <a href="#">Add Link 2</a>
+        <a href="#">Add Link 3</a>
+      </div>
+      <div id="dropdown2" class="dropDown-content">
+        <a href="#">Notification Link 1</a>
+        <a href="#">Notification Link 2</a>
+        <a href="#">Notification Link 3</a>
+      </div>
+      <div id="dropdown3" class="dropDown-content">
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+        <a href="#" id="log-out">Logout</a>
+      </div>
+    </div>
+  </template>

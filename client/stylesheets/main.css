@@ -1,0 +1,52 @@
+/* CSS declarations go here */
+
+html, body{
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #1b1b1b;
+}
+
+h1, h2, h4, h5{
+  color: white;
+}
+
+.user-login{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.user-login h1{
+  margin-bottom: 20px;
+}
+
+.user-login input{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  width: 302px !important;
+}
+
+.panel-body{
+  background-color: #1b1b1b;
+  margin: auto;
+  padding: 0px;
+}
+
+.form-group input{
+  width: 40%;
+  margin: auto;
+}
+
+#login, #signup{
+  width: 302px;
+  background-color: #18A4ED;
+}
+
+.user-container {
+  margin: auto;
+}
+
+
+
+
